@@ -1,0 +1,3 @@
+{
+    "files": ["main.py","swerve/database/dbdriver.py","swerve/core/commandline.py","swerve/database/gds/gds.py","swerve/database/gds/gdspassword.py","swerve/core/pyside.py","swerve/core/App.py","swerve/core/SwerveOS.py","swerve/database/swervedb.py","swerve/gui/UI.py","swerve/database/dbpassword.py","swerve/database/dbextractor.py","swerve/core/Logger.py"]
+}
