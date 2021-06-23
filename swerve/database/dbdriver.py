@@ -12,9 +12,9 @@ More supported: https://doc.qt.io/qtforpython-5/overviews/sql-driver.html#sql-da
 """
 
 from PySide2.QtCore import QStandardPaths
-from Hulkster.swerve.core import paths, swerveos
-from Hulkster.swerve.database import dbpassword
-from Hulkster.swerve.database.gds import gdspassword
+from swerve.core import paths, swerveos
+from swerve.database import dbpassword
+from swerve.database.gds import gdspassword
 from shutil import copyfile
 
 odbc = "QODBC"

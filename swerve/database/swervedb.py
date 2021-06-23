@@ -5,9 +5,9 @@ Database class
 
 import os
 from PySide2.QtSql import QSqlDatabase, QSqlQuery, QSqlRecord
-from Hulkster.swerve.core import logger
-from Hulkster.swerve.database import dbdriver
-from Hulkster.swerve.database.gds import gdspassword
+from swerve.core import logger
+from swerve.database import dbdriver
+from swerve.database.gds import gdspassword
 
 
 class Database:

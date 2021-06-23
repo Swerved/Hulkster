@@ -9,9 +9,9 @@ Project Hulkster
 import sys
 
 
-from Hulkster.swerve.core import application, logger, paths, pyside, swerveos
-from Hulkster.swerve.database import dbextractor, dbpassword
-from Hulkster.swerve.database.gds import gds
+from swerve.core import application, logger, paths, pyside, swerveos
+from swerve.database import dbextractor, dbpassword
+from swerve.database.gds import gds
 
 from PySide2 import QtQml
 from PySide2.QtCore import QStandardPaths

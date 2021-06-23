@@ -4,9 +4,9 @@ import threading
 import time
 from PySide2.QtCore import QObject, Slot, QThread, Signal, QElapsedTimer, Property, QRegExp
 from PySide2.QtSql import QSqlDatabase, QSqlQuery, QSqlRecord
-from Hulkster.swerve.core import commandline, qml, swerveos, paths
-from Hulkster.swerve.database import swervedb
-from Hulkster.swerve.database.gds import gds
+from swerve.core import commandline, qml, swerveos, paths
+from swerve.database import swervedb
+from swerve.database.gds import gds
 
 
 class Extractor(QObject, metaclass=qml.PropertyMeta):
